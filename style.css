@@ -13,7 +13,7 @@
 }
 
 .nav-bar {
-    background-color: antiquewhite;
+    background-color: rgb(253, 244, 232);
 }
 
 .nav-contant {
@@ -147,7 +147,7 @@
 .card-section {
     height: 448px;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .card-titel {
@@ -207,6 +207,8 @@
     color: #ffffff;
 }
 
+
+
 .second-brain {
     padding: 80px 20px;
 }
@@ -236,7 +238,7 @@
 .second-brain__label {
     font-size: 12px;
     letter-spacing: 2px;
-    color: #7a8a99;
+    color: #3e8b5a;
     font-weight: 700;
     margin-bottom: 12px;
 }
@@ -278,56 +280,7 @@
     border-radius: 50%;
 }
 
-.info {
-    height: 506px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40;
 
 
-}
-
-.info .info-content {
-    max-width: 1140px;
-    width: 1360px;
-    height: 384px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #F7F6F2;
-    gap: 24;
-    text-align: center;
-    
-}
-.info .info-titel h1{
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.info .info-titel p{
-    width: 1280px;
-    height: 48px;
-    font-size: 16px;
-    letter-spacing: 0%;
-    color: #627382;
-    gap: 16px;
-}
 
 
-.info-content .list{
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    color: #627382;
-}
-
-.info-content #list1{
-    list-style: none;
-}
-
-.info-content #list2::marker{
-    color: #469165;
-}
